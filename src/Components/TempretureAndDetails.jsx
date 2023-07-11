@@ -40,9 +40,27 @@ const TempretureAndDetails = () => {
       </div>
 
       <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
+        <UilSun></UilSun>
+        <p className="font-light">
+          Rise:<span className="font-medium ml-1">06:45 am</span>
+        </p>
+        <p className="font-light">|</p>
+
         <UilSunset></UilSunset>
         <p className="font-light">
-          Rise: <span className="font-medium ml-1">06:45 am</span>
+          Set:<span className="font-medium ml-1">06:45 pm</span>
+        </p>
+        <p className="font-light">|</p>
+
+        <UilSunset></UilSunset>
+        <p className="font-light">
+          High:<span className="font-medium ml-1">45°</span>
+        </p>
+        <p className="font-light">|</p>
+
+        <UilSunset></UilSunset>
+        <p className="font-light">
+          Low:<span className="font-medium ml-1">35°</span>
         </p>
       </div>
     </div>

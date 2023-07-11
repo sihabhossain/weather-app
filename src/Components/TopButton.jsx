@@ -33,7 +33,6 @@ const TopButton = () => {
           </button>
         );
       })}
-      ,
     </div>
   );
 };
